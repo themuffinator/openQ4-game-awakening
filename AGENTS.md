@@ -1,6 +1,19 @@
-# openQ4-game-awakening Agent Guide
+# openQ4-game-awakening archival maintenance guide
 
-Rules, goals and local references for anyone working on openQ4-game-awakening.
+Game-code development has moved to [openQ4](https://github.com/themuffinator/openQ4). This repository is
+retained as a historical archive. Apply new SDK/game changes in openQ4’s
+`src/game/` and `src/mpgame/`; Awakening SP additions belong in
+`src/game/awakening/` and are scoped to active `q4xbase` content. Do not revive
+the companion build, source stage or expansion multiplayer module.
+
+Only archival documentation maintenance belongs here. Keep README and
+[MIGRATION.md](MIGRATION.md) aligned with openQ4’s component licences and
+provenance. Preserve the original source, licence notices and credits.
+
+## Historical guide (before consolidation)
+
+The metadata, procedures and cross-repository rules below describe the frozen
+pre-migration project. They do not override the canonical locations above.
 
 **Project Metadata**
 - Name: openQ4-game-awakening
